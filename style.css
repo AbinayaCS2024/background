@@ -1,0 +1,31 @@
+body
+{
+    background-image: url(./image/Travel.jpg);
+    background-size: cover;
+}
+#container{
+    margin: 100px;
+    max-width: 1030px;
+    height: 700px;
+    background-color: rgba(78, 68, 68, 0.554);
+    background-blend-mode:lighten;
+    justify-content: space-around;
+
+}
+h1{
+    background-color: indigo;
+    color: white;  
+}
+h2{
+    color: white;
+}
+img
+{
+    height: 150px;
+    width: 150px;
+    border: 3px solid white;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+    flex-wrap: wrap-reverse;
+}
